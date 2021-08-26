@@ -23,3 +23,6 @@ Instructions:
 
 ## Practical 5
 Create a Web-Page showing the use of Image-Map in the Web Application.
+
+## Practical 6
+Create a Card Layout using CSS layout properties.
