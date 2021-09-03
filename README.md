@@ -27,7 +27,13 @@ Create a Web-Page showing the use of Image-Map in the Web Application.
 ## Practical 6
 Create a Card Layout using CSS layout properties.
 
-## Prcatical 7
+## Practical 7
 Create a Web Page Layout using div tags.
 - Students have to create a web-page layout showing exactly same as screenshot.
 - Create only the layout, without content and responsiveness.
+
+## Practical 8
+Create a Web Page having Fixed Navigation Bar with the given content.
+Instructions:
+- Students have to create a web-page layout with the content.
+- Create a Fixed navigation bar with proper section linking.
