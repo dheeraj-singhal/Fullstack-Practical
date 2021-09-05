@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practical-8</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
       body {
         font-family: Arial, Helvetica, sans-serif;
       }
@@ -15,8 +19,13 @@
         display: flex;
         height: 70px;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         width: 100%;
+        position: fixed;
+        margin-top: 0;
+      }
+      #navBar {
+        height: 70px;
       }
       .menu {
         list-style: none;
@@ -26,17 +35,19 @@
         display: inline-block;
         text-transform: uppercase;
         line-height: 70px;
-        margin-right: 100px;
+        margin-right: 80px;
+        justify-content: space-evenly;
         font-size: 20px;
       }
       .menu li a {
         text-decoration: none;
         color: white;
+        padding: 8px 35px;
+        border-radius: 15px;
       }
       .menu li a:hover {
         background-color: white;
         color: black;
-        padding: 20px;
       }
       /* Banner */
       #banner {
@@ -46,7 +57,7 @@
         background-position: center;
         display: flex;
         margin-top: 10px;
-        height: 700px;
+        height: 750px;
         margin-bottom: 50px;
       }
       #banner h2 {
@@ -56,6 +67,7 @@
         text-transform: uppercase;
         text-align: left;
       }
+      /* Team Members */
       #class-container {
         width: 100%;
         display: flex;
@@ -71,11 +83,11 @@
         margin-left: 40px;
         margin-right: 40px;
         border-radius: 50%;
-        background-color: goldenrod;
         height: 170px;
         width: 170px;
         float: left;
       }
+      /* About us */
       #main-content {
         background-color: gray;
         height: 640px;
@@ -89,7 +101,6 @@
         padding-left: 10px;
       }
       .artical {
-        margin-top: -10px;
         margin-left: 20px;
         background-color: chocolate;
         color: white;
@@ -115,6 +126,7 @@
         width: 100%;
         border-radius: 10px;
       }
+      /* Technologies Used */
       .box {
         width: 18%;
         float: left;
@@ -147,12 +159,13 @@
       .box a:hover {
         background-color: blue;
       }
+      /* Contact */
       #footer {
         padding: 15px;
         text-align: center;
         margin-top: 20px;
         background-color: plum;
-        width: 100%;
+        width: 98%;
         height: 65px;
         color: black;
       }
@@ -161,13 +174,14 @@
   <body>
     <div id="header">
       <ul class="menu">
-        <li><a href="#header">Home</a></li>
+        <li><a href="#navBar">Home</a></li>
         <li><a href="#about-us">About us</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#technologies">Technologies</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
+    <div id="navBar"></div>
     <div id="banner"><h2>Practical-8</h2></div>
     <h2 id="team">Team Members</h2>
     <div id="class-container">
@@ -184,11 +198,19 @@
         <img src="../Images/Practical-8/4.png" />
       </div>
     </div>
-    <h2 id="about-us">About Us</h2>
+    <h2 id="about-us" style="margin-bottom: 20px">About Us</h2>
     <div class="section2" style="display: flex; margin-bottom: 40px">
       <div id="main-content" style="margin-top: 10px">
-        <h2>About Projects</h2>
-        <p style="padding: 15px; text-align: justify; word-spacing: 5px">
+        <h2 style="margin-top: 15px">About Projects</h2>
+        <br />
+        <p
+          style="
+            padding: 15px;
+            text-align: justify;
+            word-spacing: 5px;
+            line-height: 25px;
+          "
+        >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
           praesentium nemo, quas consequatur odio explicabo recusandae incidunt
           vel asperiores accusantium nobis a omnis iste. Autem exercitationem
@@ -213,23 +235,24 @@
           nihil repellat repellendus officia dolor, quis doloremque autem
           assumenda obcaecati sed! Quis assumenda, velit commodi placeat nam
           iste fuga excepturi odio voluptatem ad ducimus molestias soluta iure
-          est. Reprehenderit, rem officia? Quod assumenda expedita soluta
-          mollitia porro tenetur temporibus distinctio officiis voluptatum quas
-          rem quis aperiam reiciendis molestiae suscipit, dolorum itaque
-          voluptates praesentium voluptatem dignissimos? Eius, vitae voluptatem
-          rerum ut molestias accusantium commodi fuga impedit dolorum. Iste
-          dignissimos voluptates doloribus eligendi nihil delectus dicta
-          corrupti, sunt vel voluptas dolores suscipit itaque a
+          est.
         </p>
       </div>
-      <div style="margin-left: 10px; width: 50%">
+      <div style="margin-left: 10px; width: 50%; margin-top: 10px">
         <div class="artical" id="p1"><h2>Project-1</h2></div>
         <div class="artical" id="p2"><h2>Project-2</h2></div>
         <div class="artical" id="p3"><h2>Project-3</h2></div>
       </div>
     </div>
     <h2 id="technologies">Technologies Used</h2>
-    <div style="display: flex; align-items: center; justify-content: center">
+    <div
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      "
+    >
       <div class="box">
         <img src="../Images/html.png" alt="" />
         <h4>Introduction to HTML</h4>
@@ -279,7 +302,7 @@
         >dheeraj-singhal</a
       >
       <br /><br />
-      <a href="#header">Back to Top</a>
+      <a href="#navBar">Back to Top</a>
     </div>
   </body>
 </html>
