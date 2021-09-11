@@ -37,3 +37,11 @@ Create a Web Page having Fixed Navigation Bar with the given content.
 Instructions:
 - Students have to create a web-page layout with the content.
 - Create a Fixed navigation bar with proper section linking.
+
+## Practical 9
+Create a Responsive Web Layout with Responsive Navigation Bar.
+
+Instructions:
+- Students have to make responsive layout already created in Practical-8.
+- Copy the content of the practical 8, Create a new file named Practical-9 and make it responsive.
+- Students have to add minimum three breakpoints to make it responsive.
