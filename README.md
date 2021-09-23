@@ -70,3 +70,12 @@ Instructions:
 
 - Students have to make responsive Side-bar Navigation menu as per the layout.
 - Students also have to make it responsive for mobile devices or tablet using media query.
+
+## Practical 11
+
+Create a Responsive Footer Template.
+
+Instructions:
+
+- Students have to create a Responsive Footer Template as attached screenshot.
+- Students can only use the Semantic Tags not div.
