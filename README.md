@@ -79,3 +79,7 @@ Instructions:
 
 - Students have to create a Responsive Footer Template as attached screenshot.
 - Students can only use the Semantic Tags not div.
+
+## Practical 12
+
+Create a Table that represent Live Practical Book Records.
