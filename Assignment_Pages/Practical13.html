@@ -1,12 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practical-13</title>
-</head>
-<body>
-    
-</body>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        background-color: burlywood;
+      }
+
+      .container {
+        width: 600px;
+        background-color: white;
+        margin: 20px auto;
+      }
+
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      table {
+        margin: 15px auto;
+        text-align: center;
+        border: white;
+      }
+
+      th {
+        padding: 30px;
+        color: rgb(0, 26, 255);
+      }
+
+      td {
+        padding: 10px;
+      }
+
+      tbody tr:nth-child(1) {
+        color: red;
+      }
+
+      thead th:nth-child(1) {
+        background-color: rgb(93, 218, 93);
+      }
+
+      thead th:nth-child(2) {
+        background-color: rgb(124, 211, 83);
+      }
+
+      thead th:nth-child(3) {
+        background-color: rgb(47, 163, 128);
+      }
+
+      thead th:nth-child(4) {
+        background-color: rgb(46, 137, 165);
+      }
+
+      tbody tr td:nth-child(1) {
+        background-color: lightgreen;
+      }
+
+      tbody tr td:nth-child(2) {
+        background-color: rgb(146, 243, 101);
+      }
+
+      tbody tr td:nth-child(3) {
+        background-color: rgb(78, 216, 174);
+      }
+
+      tbody tr td:nth-child(4) {
+        background-color: rgb(61, 167, 199);
+      }
+
+      tbody tr:nth-child(even) td:nth-child(1) {
+        background-color: rgb(93, 218, 93);
+      }
+
+      tbody tr:nth-child(even) td:nth-child(2) {
+        background-color: rgb(124, 211, 83);
+      }
+
+      tbody tr:nth-child(even) td:nth-child(3) {
+        background-color: rgb(47, 163, 128);
+      }
+
+      tbody tr:nth-child(even) td:nth-child(4) {
+        background-color: rgb(46, 137, 165);
+      }
+
+      button {
+        padding: 5px 15px 5px 15px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Select your plan</h1>
+      <table border="1">
+        <thead>
+          <tr>
+            <th><i class="fa fa-building"></i>Basic</th>
+            <th><i class="fa fa-superpowers"></i>Plus</th>
+            <th><i class="fa fa-telegram"></i>Delux</th>
+            <th><i class="fa fa-tachometer"></i>Pro</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rs. 500/-</td>
+            <td>Rs. 1500/-</td>
+            <td>Rs. 2500/-</td>
+            <td>Rs. 3500/-</td>
+          </tr>
+          <tr>
+            <td>50 pages</td>
+            <td>75 pages</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <td>3 users</td>
+            <td>5 users</td>
+            <td>10 users</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <td>10 Stars</td>
+            <td>15 Stars</td>
+            <td>100 Stars</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <td>50 MB</td>
+            <td>250 MB</td>
+            <td>1 GB</td>
+            <td>5 GB</td>
+          </tr>
+          <tr>
+            <td>included</td>
+            <td>included</td>
+            <td>included</td>
+            <td>included</td>
+          </tr>
+          <tr>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+          </tr>
+          <tr>
+            <td><img src="../Images/coss_icon.jpg" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+          </tr>
+          <tr>
+            <td><img src="../Images/coss_icon.jpg" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+          </tr>
+          <tr>
+            <td><img src="../Images/coss_icon.jpg" alt="" /></td>
+            <td><img src="../Images/coss_icon.jpg" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+          </tr>
+          <tr>
+            <td><img src="../Images/coss_icon.jpg" alt="" /></td>
+            <td><img src="../Images/coss_icon.jpg" alt="" /></td>
+            <td><img src="../Images/coss_icon.jpg" alt="" /></td>
+            <td><img src="../Images/check_icon.png" alt="" /></td>
+          </tr>
+          <tr>
+            <td><button>Sign Up</button></td>
+            <td><button>Sign Up</button></td>
+            <td><button>Sign Up</button></td>
+            <td><button>Sign Up</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
