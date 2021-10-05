@@ -83,3 +83,11 @@ Instructions:
 ## Practical 12
 
 Create a Table that represent Live Practical Book Records.
+
+## Practical 13
+
+Create a Custom Price Table Template.
+
+Instructions:
+
+- Student have to create a custom table
