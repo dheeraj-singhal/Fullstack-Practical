@@ -91,3 +91,12 @@ Create a Custom Price Table Template.
 Instructions:
 
 - Student have to create a custom table
+
+## Practical 14
+
+Create a Counter Page using JavaScript as per the attached Templates.
+
+Instructions:
+
+- Students have to create a Counter with Functionality of Increment and Decrement as per attached screenshot.
+- ' +' Button will increment the counter, '-' Button will decrement the counter. On Value 0, ' - ' Button will Disabled.
