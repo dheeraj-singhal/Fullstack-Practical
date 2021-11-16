@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: rgba(0, 28, 54, 255);
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        top: 0;
+      }
+      .menu {
+        /* float: left; */
+        padding: 0 20px;
+      }
+
+      .menu li {
+        display: inline-block;
+        line-height: 70px;
+        color: gainsboro;
+      }
+      .menu li:nth-child(1){
+        margin-left: 25px;
+      }
+      .item{
+        float: right;
+        /* display: flex;
+        flex-direction: row; */
+        margin-right: 70px;
+      }
+
+      .main {
+        margin-top: 70px;
+        width: 100%;
+        background-image: url("../Images/download (1).jpg") ;
+        opacity: .8;
+        background-size: cover;
+        background-position: top;
+        height: 585px;
+      }
+      .sub-header {
+        width: 100%;
+        height: 70px;
+      }
+      .sub-menu {
+        float: left;
+        padding: 0 10px;
+      }
+
+      .sub-menu li {
+        display: inline-block;
+        line-height: 70px;
+        color: whitesmoke;
+      }
+      .sub-menu li:nth-child(1){
+        margin-left: 25px;
+      }
+      .sub-menu li a {
+        color: white;
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 8px 30px;
+        background-color: orange;
+      }
+      .sub-menu li:nth-child(1) {
+        /* margin-left: 50x; */
+        padding-left: 50px;
+        font-size: 30px;
+      }
+      .content {
+        margin-top: 12%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+      }
+      .last {
+        float: right;
+        /* margin-right: 70px; */
+      }
+      .middle {
+        margin-right: 20px;
+      }
+      .container{
+        background-color: rgba(0, 0, 0, 0.4);
+        display: block;
+        /* display: inline-block; */
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+      }
+      .form ul li{
+        list-style: none;
+        display: inline-block;
+        /* float: left; */
+        color: orange;
+        margin: 4px 35px;
+        font-weight: bold;
+      }
+      .form ul li:nth-child(1) {
+        margin-left: 5px;
+      }
+      .form ul li:nth-child(6) {
+        line-height: 30px;
+        background-color: orange;
+        height: 30px;
+        width: 30px;
+        border-radius: 2px;
+        color: white;
+        margin-top: 14px;
+        margin-right: 10px;
+      }
+      .input input{
+        width: 100px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-color: white;
+        border-radius: 4px;
+        padding: 4px 10px;
+        margin-right: 50px;
+      }
+      .input button {
+        padding: 4px;
+        background-color: orange;
+        color: white;
+        border-radius: 4px;
+      }
+      .input input::placeholder {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li id="item1">Welcome to Conbusi consulting service</li>
+          <li class="item"><i class="fa fa-google-plus"></i></li>
+          <li class="item" style="margin-right: 15px;"><i class="fa fa-facebook"></i></li>
+          <li class="item" style="margin-right: 15px;"><i class="fa fa-linkedin"></i></li>
+          <li class="item"><i class="fa fa-phone" style="color: orange; margin-right: 5px;"></i> 1601-609 6780</li>
+          <li class="item"><span><i class="fa fa-envelope" style="color: orange; margin-right: 5px;"></i> info@docmed.com</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="sub-header">
+        <nav>
+          <ul class="sub-menu">
+            <li>Real Estate<span style="color: orange;">.</span></li>
+            <li class="middle" style="margin-left: 300px;">Home</li>
+            <li class="middle">Pages <i class="fa fa-angle-down"></i></li>
+            <li class="middle">Property</li>
+            <li class="middle">Blog <i class="fa fa-angle-down"></i></li>
+            <li class="middle" style="margin-right: 300px;">Contact</li>
+            <li class="last" style="margin-right: 10px;"><a href="#">Add Property</a></li>
+            <li class="last" style="margin-right: 10px;"><i class="fa fa-search"></i></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1 style="font-size: 60px;">Find Your Best Property</h1>
+        <p style="font-size: 20px;">Esteem spirit temper too say adieus who direct esteem.</p>
+      </div>
+      <div class="container">
+        <div class="form">
+          <ul>
+            <li style="margin-left: 40px;">Location</li>
+            <li>Property Type</li>
+            <li style="margin-right: 30px;">Prices ($)</li>
+            <li>Bed Room</li>
+            <li>Bath Room</li>
+            <li><i class="fa fa-search"></i></li>
+          </ul>
+        </div>
+        <div class="input">
+          <input type="text" placeholder="NewYork" style="margin-right: 20px;">
+          <input type="text" placeholder="Appartment" style="margin-right: 10px;">
+          <button>20k</button>
+          <span style="color: orange; font-size: 18px;">-------</span>
+          <button style="margin-right: 25px;">200k</button>
+          <input type="text" placeholder="01" style="width: 80px; margin-right: 30px;">
+          <input type="text" placeholder="01" style="width: 80px;">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
