@@ -100,3 +100,14 @@ Instructions:
 
 - Students have to create a Counter with Functionality of Increment and Decrement as per attached screenshot.
 - ' +' Button will increment the counter, '-' Button will decrement the counter. On Value 0, ' - ' Button will Disabled.
+
+## Practical 15
+
+Create an HTML Form and Validate it with JavaScript (Client-side Programming Language).
+
+Instructions:
+- Students have to create an HTML Form with mentioned fields and then validate each and every field with
+valid regular expression. (Email and Username with Reg-Ex)
+
+- For Username: small case with no special Symbols and spaces
+- For Email: username@domain.com
